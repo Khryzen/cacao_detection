@@ -12,6 +12,6 @@ packages = [
 
 # Install each package
 for package in packages:
-    subprocess.run(["pip", "install", package])
+    subprocess.run(["pip3", "install", package])
 
 print("All specified packages have been installed.")
